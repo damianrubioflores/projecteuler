@@ -49,5 +49,6 @@ function longestCollatzSequence(limit) {
   return result;
 }
 
-console.log(longestCollatzSequence(14));
-console.log(longestCollatzSequence(5847));
+longestCollatzSequence(14);
+longestCollatzSequence(5847);
+console.log(longestCollatzSequence(1000000));

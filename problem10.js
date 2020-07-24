@@ -21,4 +21,4 @@ const isPrime = num => {
 primeSummation(17);
 primeSummation(2001);
 primeSummation(140759);
-primeSummation(2000000);
+console.log(primeSummation(2000000));

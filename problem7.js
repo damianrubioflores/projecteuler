@@ -19,4 +19,4 @@ const isPrime = num => {
         if(num % i === 0) return false; 
     return num > 1;
 }
-nthPrime(10001);
+console.log(nthPrime(10001));

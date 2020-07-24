@@ -40,4 +40,4 @@ function largestProductinaSeries(n) {
   return result;
 }
 largestProductinaSeries(4);
-largestProductinaSeries(13);
+console.log(largestProductinaSeries(13));

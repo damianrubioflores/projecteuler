@@ -60,4 +60,4 @@ function numberLetterCounts(limit) {
 
 numberLetterCounts(5);
 numberLetterCounts(150);
-numberLetterCounts(1000);
+console.log(numberLetterCounts(1000));

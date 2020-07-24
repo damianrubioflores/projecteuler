@@ -31,4 +31,4 @@ function powerDigitSum(exponent) {
 
 powerDigitSum(15);
 powerDigitSum(128);
-powerDigitSum(1000);
+console.log(powerDigitSum(1000));

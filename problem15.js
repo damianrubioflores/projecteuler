@@ -3,7 +3,7 @@ Starting in the top left corner of a 2×2 grid, and only being able to move to t
 
 a diagram of 6 2 by 2 grids showing all the routes to the bottom right corner
 
-How many such routes are there through a given gridSize?*/
+How many such routes are there through a 20×20 grid?*/
 
 function latticePaths(gridSize) {
   let moveDown=gridSize;
@@ -23,4 +23,4 @@ function Factorial(number){
 
 latticePaths(4);
 latticePaths(9);
-latticePaths(20);
+console.log(latticePaths(20));

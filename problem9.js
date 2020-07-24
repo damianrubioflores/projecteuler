@@ -22,4 +22,4 @@ function specialPythagoreanTriplet(n) {
 
 specialPythagoreanTriplet(24);
 specialPythagoreanTriplet(120);
-specialPythagoreanTriplet(1000);
+console.log(specialPythagoreanTriplet(1000));

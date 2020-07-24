@@ -25,3 +25,4 @@ function countingSundays(firstYear, lastYear) {
 }
 
 countingSundays(1943, 1946);
+console.log(countingSundays(1901, 2000));

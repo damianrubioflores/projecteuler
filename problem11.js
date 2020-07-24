@@ -30,62 +30,62 @@ function largestGridProduct(arr) {
   let mult=1;
   let result=1;
   // Horizontal
-  console.log("Horizontal");
+  //console.log("Horizontal");
   for(var i=0; i<arr.length; i++){
     for (var j=0; j<arr[i].length-3; j++){
       for(var k=0; k<=3; k++){
         mult=mult*arr[i][j+k];
-        console.log(arr[i][j+k]);  
+        //console.log(arr[i][j+k]);  
       }
       if (mult > result){
         result = mult;
       }
-      console.log(mult,result);
+      //console.log(mult,result);
       mult=1;
     }    
   };
   //Vertical
-  console.log("Vertical");
+  //console.log("Vertical");
   for(var i=0; i<arr.length-3; i++){
     for (var j=0; j<arr[i].length; j++){
       for(var k=0; k<=3; k++){
         mult=mult*arr[i+k][j];
-        console.log(arr[i+k][j]);  
+        //console.log(arr[i+k][j]);  
       }
       if (mult > result){
         result = mult;
       }
-      console.log(mult,result);
+      //console.log(mult,result);
       mult=1;
     }    
   };
   //Diagonal \
-  console.log("Diagonal\\");
+  //console.log("Diagonal\\");
   for(var i=0; i<arr.length-3; i++){
     for (var j=0; j<arr[i].length-3; j++){
       for(var k=0; k<=3; k++){
         mult=mult*arr[i+k][j+k];
-        console.log(arr[i+k][j+k]);  
+        //console.log(arr[i+k][j+k]);  
       }
       if (mult > result){
         result = mult;
       }
-      console.log(mult,result);
+      //console.log(mult,result);
       mult=1;
     }    
   };
   //Diagonal /
-  console.log("Diagonal\/");
+  //console.log("Diagonal\/");
   for(var i=0; i<arr.length-3; i++){
     for (var j=0; j<arr[i].length-3; j++){
       for(var k=0; k<=3; k++){
         mult=mult*arr[i+k][3+j-k];
-        console.log(arr[i+k][3+j-k]);  
+        //console.log(arr[i+k][3+j-k]);  
       }
       if (mult > result){
         result = mult;
       }
-      console.log(mult,result);
+      //console.log(mult,result);
       mult=1;
     }    
   };
@@ -125,4 +125,4 @@ const testGrid = [
 ];
 
 largestGridProduct(testGrid);
-largestGridProduct(grid);
+console.log(largestGridProduct(grid));

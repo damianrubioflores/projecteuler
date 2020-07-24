@@ -24,4 +24,4 @@ function sumSquareDifference(n) {
 }
 sumSquareDifference(10)
 sumSquareDifference(20)
-sumSquareDifference(100);
+console.log(sumSquareDifference(100));

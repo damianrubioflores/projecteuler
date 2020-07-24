@@ -28,4 +28,4 @@ function isPalindrome(number1, number2){
   return ispal;
 }
 largestPalindromeProduct(2);
-largestPalindromeProduct(3);
+console.log(largestPalindromeProduct(3));

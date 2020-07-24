@@ -47,4 +47,4 @@ divisibleTriangleNumber(23);
 divisibleTriangleNumber(167);
 divisibleTriangleNumber(500);
 divisibleTriangleNumber(374);
-divisibleTriangleNumber(500);
+console.log(divisibleTriangleNumber(500));

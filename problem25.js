@@ -18,11 +18,11 @@ F11 = 89
 F12 = 144
 The 12th term, F12, is the first term to contain three digits.
 
-What is the index of the first term in the Fibonacci sequence to contain n digits?*/
+What is the index of the first term in the Fibonacci sequence to contain 1000 digits?*/
 
 function digitFibonacci(n) {
   let mult=Math.pow(10,n-1);
-  let i=2;
+  let i=999999999999999999999999;
   while(fibonacci(i)<=mult){
     i++;
   }
@@ -45,7 +45,8 @@ function fibonacci(n) {
   return fib;
 }
 
-digitFibonacci(5)
-digitFibonacci(10)
-digitFibonacci(15)
-digitFibonacci(20);
+//digitFibonacci(5)
+//digitFibonacci(10)
+//digitFibonacci(15)
+//digitFibonacci(20);
+console.log(digitFibonacci(1000));

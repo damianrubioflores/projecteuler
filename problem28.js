@@ -8,7 +8,7 @@ Starting with the number 1 and moving to the right in a clockwise direction a 5 
 17 16 15 14 13
 It can be verified that the sum of the numbers on the diagonals is 101.
 
-What is the sum of the numbers on the diagonals in an n by n spiral formed in the same way?*/
+What is the sum of the numbers on the diagonals in an 1001 by 1001 spiral formed in the same way?*/
 
 function spiralDiagonals(n) {
   let result=1;
@@ -24,4 +24,4 @@ function spiralDiagonals(n) {
   return result;
 }
 
-spiralDiagonals(1001);
+console.log(spiralDiagonals(1001));
