@@ -9,7 +9,7 @@ function largestPrimeFactor(number) {
     if (number % p == 0) {
       number = number / p;
     } else {
-      if (p>2) {
+      if (p > 2) {
         p += 2;
       } else {
         p += 1;
@@ -25,4 +25,4 @@ largestPrimeFactor(5);
 largestPrimeFactor(7);
 largestPrimeFactor(8);
 largestPrimeFactor(13195);
-largestPrimeFactor(600851475143);
+console.log(largestPrimeFactor(600851475143));

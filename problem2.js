@@ -19,8 +19,8 @@ function fiboEvenSum(n) {
   return result;
 }
 
-fiboEvenSum(10);
-fiboEvenSum(60);
-fiboEvenSum(1000);
-fiboEvenSum(100000);
-fiboEvenSum(4000000);
+console.log(fiboEvenSum(10));
+console.log(fiboEvenSum(60));
+console.log(fiboEvenSum(1000));
+console.log(fiboEvenSum(100000));
+console.log(fiboEvenSum(4000000));

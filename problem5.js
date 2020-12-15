@@ -14,12 +14,11 @@ function smallestMult(n) {
         carry.push(i);
         for(var j=0; j<carry.length-2; j++){
           if (carry[carry.length-1]%carry[j]==0) {
-          carry[carry.length-1]=carry[carry.length-1]/carry[j];
+			carry[carry.length-1]=carry[carry.length-1]/carry[j];
           }
         }
       result= result*carry[carry.length-1];
       }
-      
   }
   return result;
 }
