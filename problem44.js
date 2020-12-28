@@ -32,4 +32,4 @@ function isPenta(num){
 }
 
 
-pentagonNumbers();
+console.log(pentagonNumbers());

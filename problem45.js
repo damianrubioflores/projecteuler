@@ -35,7 +35,7 @@ function isPenta(num){
   return Number.isInteger((Math.sqrt(1 + 24 * num) + 1) / 6);
 }
 
-triPentaHexa(40756);
+//triPentaHexa(40756);
 
 
 console.log(triPentaHexa(40756));

@@ -29,7 +29,7 @@ function SumDivisors(n){
   return num;
 }
 
-sumAmicableNum(1000);
-sumAmicableNum(2000);
-sumAmicableNum(5000);
+//sumAmicableNum(1000);
+//sumAmicableNum(2000);
+//sumAmicableNum(5000);
 console.log(sumAmicableNum(10000));
