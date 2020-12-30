@@ -21,11 +21,11 @@ What is the index of the first term in the Fibonacci sequence to contain 1000 di
 
 
 
-function digitFib(n){
+/*function digitFib(n){
 	let i=1n;
 	let compute=fib(i).toString().length;
 	while( compute < n ){
-		console.log(i, compute);
+		//console.log(i, compute);
 		i++;
 		compute=fib(i).toString().length;
 	}
@@ -38,7 +38,23 @@ const fib = (n,memo={}) => {
 	
 	memo[n]=fib(n-1n,memo) + fib(n-2n,memo);
 	return memo[n];
-};
+};*/
 
+function digitFib(n){
+	let i=2n;
+	let bef1=0n;
+	let bef2=1n;
+	let fib=bef1+bef2;
+	while (fib.toString().length < n){
+		//console.log(i, fib ,fib.toString().length)
+		i++;
+		bef1=bef2;
+		bef2=fib;
+		fib=bef1+bef2;
+	}
+	return i;
+}
+
+console.log(digitFib(20));
 console.log(digitFib(1000));
 //console.log(fib(1500n));
