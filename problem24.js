@@ -11,7 +11,7 @@ function lexicoPerm(n){
 	let digitos=[0,1,2,3,4,5,6,7,8,9];
 	let i=0;
 	while (result.length<10){
-		if ( (n > carry) && (n > carry + Factorial(digitos.length - 1)) ){
+		if ( (n > carry) && (n >= carry + Factorial(digitos.length - 1)) ){
 			console.log(result, n, carry, (carry + Factorial(digitos.length - 1)));
 			carry+=Factorial(digitos.length - 1);
 			i++;
